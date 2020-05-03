@@ -152,13 +152,13 @@ class _DetailsPageState extends State<DetailsPage> {
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: <Widget>[
-                          _buildInfoCard('WEIGHT', '300', 'G'),
+                          _buildInfoCard('Members', '300', 'G'),
                           SizedBox(width: 10.0),
-                            _buildInfoCard('CALORIES', '267', 'CAL'),
+                            _buildInfoCard('Posts', '267', 'CAL'),
                             SizedBox(width: 10.0),
-                            _buildInfoCard('VITAMINS', 'A, B6', 'VIT'),
+                            _buildInfoCard('Likes', 'A, B6', 'VIT'),
                             SizedBox(width: 10.0),
-                            _buildInfoCard('AVAIL', 'NO', 'AV')
+                            _buildInfoCard('Comments', 'NO', 'AV')
                         ],
                       )
                     ),

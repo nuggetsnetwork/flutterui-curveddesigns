@@ -61,14 +61,18 @@ class _MyHomePageState extends State<MyHomePage> {
             padding: EdgeInsets.only(left: 40.0),
             child: Row(
               children: <Widget>[
-                Text('Healthy',
+                Text('NUGGETS',
                     style: TextStyle(
                         fontFamily: 'Montserrat',
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
-                        fontSize: 25.0)),
-                SizedBox(width: 10.0),
-                Text('Food',
+                        fontSize: 35.0)/* Image.asset('assets/NNMain.png',
+                        width: 300,
+                        height:300,
+                        //fit: BoxFit.contain, */
+                        ),
+                SizedBox(width: 20.0),
+                 Text('Network',
                     style: TextStyle(
                         fontFamily: 'Montserrat',
                         color: Colors.white,
@@ -92,10 +96,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Container(
                         height: MediaQuery.of(context).size.height - 300.0,
                         child: ListView(children: [
-                          _buildFoodItem('assets/plate1.png', 'Salmon bowl', '\$24.00'),
-                          _buildFoodItem('assets/plate2.png', 'Spring bowl', '\$22.00'),
-                          _buildFoodItem('assets/plate6.png', 'Avocado bowl', '\$26.00'),
-                          _buildFoodItem('assets/plate5.png', 'Berry bowl', '\$24.00')
+                          _buildFoodItem('assets/NetworkDataScience.png', 'Data Science', '\@kdnuggets'),
+                          _buildFoodItem('assets/NetworkDesign.png', 'Design', '\@DesignDrops'),
+                          _buildFoodItem('assets/NetworkMotivation.png', 'Motivation', '\@BeingMan'),
+                          _buildFoodItem('assets/NetworkYoga.png', 'Fitness', '\@Yoga'),
+                          _buildFoodItem('assets/NetworkGaming.png', 'Gaming', '\@Pubg')
                         ]))),
                     Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,

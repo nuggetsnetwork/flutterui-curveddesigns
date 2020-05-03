@@ -48,6 +48,14 @@ flutter:
    - assets/plate4.png
    - assets/plate5.png
    - assets/plate6.png
+   - assets/NetworkDataScience.png
+   - assets/NetworkDesign.png
+   - assets/NetworkMotivation.png
+   - assets/NetworkYoga.png
+   - assets/NetworkGaming.png
+   - assets/NNMain.png
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
